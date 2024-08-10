@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya -- Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/35aa26c15b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="home">
+        <nav>
+            <div class="left">Aaditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Aaditya</span>
+                <div>
+                    I am a Passionate Web Developer
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="images/developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="textgray" > What I Have Done So Far</span>
+            <h1>Practice Projects</h1>
+            <div class="box">
+                <div class="card">
+                    <img src="images/40c12560-d19c-4439-821e-7eef49dd1826-cover.png" alt="">
+                </div>
+                <div class="card card-text">Learn to create a basic weather application using HTML, CSS, and JavaScript. This project involves fetching weather data from an API and displaying it dynamically. You'll build the structure with HTML, style it with CSS, and add interactivity using JavaScript, gaining hands-on experience with web development and API integration.
+                
+
+                </div>
+
+                <!-- <div class="card"></div> -->
+            </div>
+            <div class="box">
+                <div class="card card-text" >Created a Netflix front page clone using HTML, CSS, and JavaScript. This project involves replicating Netflix's user interface, including the layout, navigation, and styling. You'll build the structure with HTML, design it with CSS, and add interactivity with JavaScript, enhancing your web development skills and portfolio.</div>
+                <!-- <div class="card"></div> -->
+                <div class="card">
+                    <img src="images/Copy of SVG in HTML.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <img src="images/random pass.png" alt="">
+                </div>
+                <div class="card card-text">Created a random password generator using HTML, CSS, and JavaScript. This project involves building a simple interface for users to generate secure passwords. You'll structure the page with HTML, style it with CSS, and implement the password generation logic with JavaScript, improving your coding skills and understanding of web development.</div>
+                <!-- <div class="card"></div> -->
+            </div>
+        </section>
+        <hr>
+
+        <footer>
+            <div class="footer-container container">
+                <div class="footer-text ">
+                    Aaditya's Developer Portfolio
+                </div>
+                <div class="main-link">
+                    <h3>About</h3>
+                    <ul>
+                        <li>Aaditya</li>
+                        <li>Web Developer</li>
+                        <li>Content Writer</li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>Weather App</li>
+                        <li>Netflix Clone</li>
+                        <li>Blog Website</li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <h3>Contact Me</h3>
+                    <input type="email" name="email" id="E-mail" placeholder="enter your email">
+                    <h3>Follow me</h3>
+                    <div class="icon-container">
+                            <div class="icon">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="icon"><i class="fa fa-instagram"></i></div>
+                            <div class="icon"><i class="fa fa-twitter"></i></div>
+                            <div class="icon"><i class="fa fa-youtube"></i></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor','Content Writer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
